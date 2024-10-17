@@ -1,0 +1,16 @@
+.cell {
+  padding: 0;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.content {
+  font-size: 12px;
+}
+
+

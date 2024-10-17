@@ -1,0 +1,21 @@
+<view style="width: 100%; background: none;">
+  <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="background: white; height: 200px; width: 100%;">
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
+  </swiper>
+
+  <view class="title">积分榜</view>
+  <view class="boxes" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+    <view class="cell">
+      <view class="slide">
+        <view class="content">{{puppy_white}}的积分: {{puppy_white_credit}}</view>
+      </view>
+    </view>
+    <view class="cell">
+      <view class="slide">
+        <view class="content">{{puppy_yellow}}的积分: {{puppy_yellow_credit}}</view>
+      </view>
+    </view>
+  </view>
+</view>
