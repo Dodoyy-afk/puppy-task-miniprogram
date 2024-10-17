@@ -5,7 +5,7 @@
     <swiper-item></swiper-item>
   </swiper>
 
-  <view class="title">积分榜</view>
+  <view class="title">💵 积分榜</view>
   <view class="boxes" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="cell">
       <view class="slide">
@@ -15,6 +15,20 @@
     <view class="cell">
       <view class="slide">
         <view class="content">{{puppy_yellow}}的积分: {{puppy_yellow_credit}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="title">💡 未做提醒</view>
+  <view class="boxes" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
+    <view class="cell">
+      <view class="slide">
+        <view class="content">{{puppy_white}}的待办事项: {{puppy_white_todo}}</view>
+      </view>
+    </view>
+    <view class="cell">
+      <view class="slide">
+        <view class="content">{{puppy_yellow}}的待办事项: {{puppy_yellow_todo}}</view>
       </view>
     </view>
   </view>

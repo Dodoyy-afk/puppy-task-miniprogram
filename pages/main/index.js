@@ -1,4 +1,3 @@
-// pages/main/index.js
 Page({
 
   /**
@@ -7,8 +6,10 @@ Page({
   data: {
     puppy_white: '小白',
     puppy_white_credit: 0,
-    puppy_yellow: '小黄',
+    puppy_white_todo: 0,
+    puppy_yellow: '小鸡毛',
     puppy_yellow_credit: 0,
+    puppy_yellow_todo: 0,
   },
 
   /**
