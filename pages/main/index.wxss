@@ -1,3 +1,13 @@
+.swiper_images {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: darkgray;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .cell {
   padding: 0;
 }
