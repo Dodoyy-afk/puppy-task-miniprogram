@@ -4,10 +4,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    puppy_white: '小白',
+    puppy_white: '',
     puppy_white_credit: 0,
     puppy_white_todo: 0,
-    puppy_yellow: '小鸡毛',
+    puppy_yellow: '',
     puppy_yellow_credit: 0,
     puppy_yellow_todo: 0,
   },
@@ -29,8 +29,11 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow() {
-
+  async onShow() {
+    this.setData({
+      puppy_white: getApp().global_data.puppy_white,
+      puppy_yellow: getApp().global_data.puppy_yellow
+    })
   },
 
   /**

@@ -19,32 +19,32 @@
     "list": [
       {
         "pagePath": "pages/main/index",
-        "iconPath": "images/tabBar/main/mainIcon.jpg",
-        "selectedIconPath": "images/tabBar/main/mainIconSelected.jpg",
+        "iconPath": "images/tab/main/mainIcon.jpg",
+        "selectedIconPath": "images/tab/main/mainIconSelected.jpg",
         "text": "首页"
       },
       {
         "pagePath": "pages/task/index",
-        "iconPath": "images/tabBar/task/taskIcon.jpg",
-        "selectedIconPath": "images/tabBar/task/taskIconSelected.jpg",
+        "iconPath": "images/tab/task/taskIcon.jpg",
+        "selectedIconPath": "images/tab/task/taskIconSelected.jpg",
         "text": "任务"
       },
       {
         "pagePath": "pages/store/index",
-        "iconPath": "images/tabBar/store/storeIcon.jpg",
-        "selectedIconPath": "images/tabBar/store/storeIconSelected.jpg",
+        "iconPath": "images/tab/store/storeIcon.jpg",
+        "selectedIconPath": "images/tab/store/storeIconSelected.jpg",
         "text": "商城"
       },
       {
         "pagePath": "pages/repo/index",
-        "iconPath": "images/tabBar/repo/repoIcon.jpg",
-        "selectedIconPath": "images/tabBar/repo/repoIconSelected.jpg",
+        "iconPath": "images/tab/repo/repoIcon.jpg",
+        "selectedIconPath": "images/tab/repo/repoIconSelected.jpg",
         "text": "仓库"
       },
       {
         "pagePath": "pages/menu/index",
-        "iconPath": "images/tabBar/menu/menuIcon.jpg",
-        "selectedIconPath": "images/tabBar/menu/menuIconSelected.jpg",
+        "iconPath": "images/tab/menu/menuIcon.jpg",
+        "selectedIconPath": "images/tab/menu/menuIconSelected.jpg",
         "text": "菜单"
       }
     ]

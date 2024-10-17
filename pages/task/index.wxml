@@ -1,2 +1,1 @@
-<!--pages/task/index.wxml-->
-<text>pages/task/index.wxml</text>
+<wxs module="util" src="../util.wxs" />
