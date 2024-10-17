@@ -1,8 +1,8 @@
 <view style="width: 100%; background: none;">
   <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="background: white; height: 200px; width: 100%;">
-    <swiper-item></swiper-item>
-    <swiper-item></swiper-item>
-    <swiper-item></swiper-item>
+    <swiper-item><image src="images/boring.jpg" mode="widthFix" class="swiper_images" /></swiper-item>
+    <swiper-item><image src="images/life.jpg" mode="widthFix" class="swiper_images" /></swiper-item>
+    <swiper-item><image src="images/beach.jpg" mode="widthFix" class="swiper_images" /></swiper-item>
   </swiper>
 
   <view class="title">💵 积分榜</view>
