@@ -1,11 +1,13 @@
-// pages/task/index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
+    _puppy_white_id: getApp().global_data._puppy_white_id,
+    _puppy_yellow_id: getApp().global_data._puppy_yellow_id,
 
+    task_list: [],
+    task_pending: [],
+    task_done: [],
+
+    searching_content: ""
   },
 
   /**
