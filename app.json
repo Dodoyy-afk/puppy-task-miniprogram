@@ -1,10 +1,10 @@
 {
     "pages": [
-        "pages/main/index",
-        "pages/task/index",
-        "pages/store/index",
-        "pages/repo/index",
-        "pages/menu/index"
+        "pages/main/main",
+        "pages/task/task",
+        "pages/store/store",
+        "pages/repo/repo",
+        "pages/menu/menu"
     ],
     "window": {
         "backgroundColor": "#f6f6f6",
@@ -18,31 +18,31 @@
         "selectedColor": "#00cccc",
         "list": [
             {
-                "pagePath": "pages/main/index",
+                "pagePath": "pages/main/main",
                 "iconPath": "images/tab/main/mainIcon.jpg",
                 "selectedIconPath": "images/tab/main/mainIconSelected.jpg",
                 "text": "首页"
             },
             {
-                "pagePath": "pages/task/index",
+                "pagePath": "pages/task/task",
                 "iconPath": "images/tab/task/taskIcon.jpg",
                 "selectedIconPath": "images/tab/task/taskIconSelected.jpg",
                 "text": "任务"
             },
             {
-                "pagePath": "pages/store/index",
+                "pagePath": "pages/store/store",
                 "iconPath": "images/tab/store/storeIcon.jpg",
                 "selectedIconPath": "images/tab/store/storeIconSelected.jpg",
                 "text": "商城"
             },
             {
-                "pagePath": "pages/repo/index",
+                "pagePath": "pages/repo/repo",
                 "iconPath": "images/tab/repo/repoIcon.jpg",
                 "selectedIconPath": "images/tab/repo/repoIconSelected.jpg",
                 "text": "仓库"
             },
             {
-                "pagePath": "pages/menu/index",
+                "pagePath": "pages/menu/menu",
                 "iconPath": "images/tab/menu/menuIcon.jpg",
                 "selectedIconPath": "images/tab/menu/menuIconSelected.jpg",
                 "text": "菜单"
@@ -50,7 +50,7 @@
         ]
     },
     "useExtendedLib": {
-        "kbone": true,
+        "kbone": false,
         "weui": true
     },
     "style": "v2",

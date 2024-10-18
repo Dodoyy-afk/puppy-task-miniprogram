@@ -1,0 +1,40 @@
+<wxs module="util" src="../util.wxs" />
+
+<!-- Show default empty interface -->
+<view class="container_white" wx:if="{{task_list.length == 0}}">
+    <view class="big_title">暂无任务</view>
+    <view class="big_subtitle">快去发现有什么任务吧</view>
+</view>
+
+<!-- Show swiper if there is something in the list -->
+<swiper wx:if="{{task_list.length > 0}}" indicator-dots="true" autoplay="true" interval="2000" duration="500" style="height: 200px; width: 100%; background: white;">
+    <swiper-item>
+        <image src="../../images/swiper/boring.jpg" mode="widthFix" class="swiper_images" />
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/swiper/life.jpg" mode="widthFix" class="swiper_images" />
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/swiper/beach.jpg" mode="widthFix" class="swiper_images" />
+    </swiper-item>
+</swiper>
+
+
+<view class="container" wx:if="{{task_list.length > 0}}">
+    <!-- Seach bar -->
+    <view class="boxes">
+        <view class="search_bar">
+            <icon class="search_icon" type="search"></icon>
+            <input class="search_input" placeholder="搜搜还有哪些没做完吧" bindinput="onSearch" value="{{seach}}" />
+        </view>
+    </view>
+
+    <!-- Pending list -->
+    <view class="task_list_title">待办事项<mp-badge class="badge" content="{{task_pending.length}}"/></view>
+    <view class="task_list" wx:if="{{task_pending.length > 0}}">
+        <view class="task_list_cell">
+        </view>
+    </view>
+</view>
+
+

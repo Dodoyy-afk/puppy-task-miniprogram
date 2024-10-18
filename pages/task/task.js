@@ -4,7 +4,7 @@ Page({
         _puppy_yellow_id: getApp().global_data._puppy_yellow_id,
 
         task_list: [1],
-        task_pending: [],
+        task_pending: [1, 2, 3, 4],
         task_done: [],
 
         searching_content: ""
@@ -64,5 +64,9 @@ Page({
      */
     onShareAppMessage() {
 
+    },
+
+    onSearch(res) {
+        console.log(res)
     }
 })
