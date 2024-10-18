@@ -1,24 +1,14 @@
-.swiper_images {
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-color: darkgray;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .cell {
-  padding: 0;
+    padding: 0;
 }
 
 .slide {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
 }
 
 .content {
-  font-size: 12px;
+    font-size: 12px;
 }

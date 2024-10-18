@@ -1,44 +1,55 @@
 /**app.wxss**/
 page {
-  background: #f6f6f6;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-  min-height: 100vh;
-  overflow-x: hidden;
-  margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-bottom: 80px;
 }
 
 .title {
-  margin-top: 20px;
-  margin-left: 20px;
-  color: #8d8d8d;
-  font-size: 15px;
-  align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #8d8d8d;
+    font-size: 15px;
+    align-self: flex-start;
 }
 
 .title:not(:first-child) {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .boxes {
-  width: calc(100% - 40px);
-  margin: 10px 20px;
-  border-radius: 8px;
-  background: white;
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+    border-radius: 8px;
+    background: white;
 }
 
 .cell {
-  padding: 20px 15px;
+    padding: 20px 15px;
 }
 
 .cell:not(:last-child) {
-  border-bottom: rgba(0, 0, 0, 0.05) solid 1px;
+    border-bottom: rgba(0, 0, 0, 0.05) solid 1px;
+}
+
+/* Global settings for every paegs */
+.swiper_images {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
