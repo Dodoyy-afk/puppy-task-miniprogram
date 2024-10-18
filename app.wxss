@@ -53,3 +53,11 @@ page {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.list_title {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #00cccc;
+    font-size: 15px;
+}

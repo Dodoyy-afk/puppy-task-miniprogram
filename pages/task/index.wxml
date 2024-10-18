@@ -1,9 +1,9 @@
 <wxs module="util" src="../util.wxs" />
 
 <!-- Show default empty interface -->
-<view class="container_white" wx:if="{{task_list.length === 0}}">
-    <view class="title">暂无任务</view>
-    <view class="subtitile">快去发现有什么任务吧</view>
+<view class="container_white" wx:if="{{task_list.length == 0}}">
+    <view class="big_title">暂无任务</view>
+    <view class="big_subtitle">快去发现有什么任务吧</view>
 </view>
 
 <!-- Show swiper if there is something in the list -->
@@ -20,7 +20,14 @@
 </swiper>
 
 <!-- Seach bar -->
-<view class="container">
+<view wx:if="{{task_list.length > 0}}" class="container" >
     <view class="boxes">
+        <view class="search_bar">
+            <icon class="search_icon" type="search"></icon>
+            <input class="search_input" bindinput="onSearch" value="{{seach}}" />
+        </view>
     </view>
 </view>
+
+<!-- Incompleted -->
+<view class="list_title">待办任务<mp-badge content="{{task_pending.length}}" style="margin-left: 5px;"></mp-badge></view>

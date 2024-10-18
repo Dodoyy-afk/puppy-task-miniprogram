@@ -3,8 +3,8 @@ Page({
         _puppy_white_id: getApp().global_data._puppy_white_id,
         _puppy_yellow_id: getApp().global_data._puppy_yellow_id,
 
-        task_list: [1],
-        task_pending: [],
+        task_list: [],
+        task_pending: [2],
         task_done: [],
 
         searching_content: ""

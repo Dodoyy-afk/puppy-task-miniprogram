@@ -1,1 +1,24 @@
-/* pages/task/index.wxss */
+.search_bar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #e6e6ea;
+    border-radius: 5px;
+}
+
+.search_icon {
+    margin: 2px;
+    position: relative;
+}
+
+.search_input {
+    position: relative;
+    margin-top: 3px;
+    left: 20px;
+    height: 20px;
+    width: 80%;
+    line-height: 20px;
+    font-size: 14px;
+}
