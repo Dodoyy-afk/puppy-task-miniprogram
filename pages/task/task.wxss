@@ -28,3 +28,52 @@
     margin-left: 5px;
     top: -2px;
 }
+
+.task_list_cell {
+    padding: 20px 15px;
+}
+
+.task_list_cell:not(:last-child) {
+    border-bottom: rgba(0, 0, 0, 0.05) solid 3px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+}
+
+.task_info {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.task_title {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #5b3a29;
+}
+
+.task_credit {
+    font-size: 15px;
+    color: #7a5c4d;
+}
+
+.task_date {
+    font-size: 12px;
+    color: #7a5c4d;
+}
+
+.task_publisher {
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    right: 8%;
+}
+
+.task_publisher_profile {
+    position: absolute;
+    width: 130%;
+}

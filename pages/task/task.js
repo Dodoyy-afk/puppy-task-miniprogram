@@ -3,11 +3,30 @@ Page({
         _puppy_white_id: getApp().global_data._puppy_white_id,
         _puppy_yellow_id: getApp().global_data._puppy_yellow_id,
 
+        searching_content: "",
+
         task_list: [1],
-        task_pending: [1, 2, 3, 4],
+        task_pending: [
+            {
+                _puppy_id: "IDyellow",
+                name: "做饭",
+                credit: "10",
+                date: "2024-10-18"
+            },
+            {
+                _puppy_id: "IDwhite",
+                name: "拖地",
+                credit: "10",
+                date: "2024-10-18"
+            }
+        ],
         task_done: [],
 
-        searching_content: ""
+        slide_buttons: [
+            {name: "mark", text: "标记", src: ""},
+            {name: "resolve", text: "完成", src: ""},
+            {name: "delete", text: "删除", src: ""},
+        ]
     },
 
     /**
