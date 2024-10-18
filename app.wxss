@@ -67,5 +67,5 @@ page {
     width: calc(100% - 40px);
     margin: 10px 20px;
     border-radius: 5px;
-    background: #f8f7f4;
+    background: white;
 }
