@@ -19,15 +19,22 @@
     </swiper-item>
 </swiper>
 
-<!-- Seach bar -->
-<view wx:if="{{task_list.length > 0}}" class="container" >
+
+<view class="container" wx:if="{{task_list.length > 0}}">
+    <!-- Seach bar -->
     <view class="boxes">
         <view class="search_bar">
             <icon class="search_icon" type="search"></icon>
-            <input class="search_input" bindinput="onSearch" value="{{seach}}" />
+            <input class="search_input" placeholder="搜搜还有哪些没做完吧" bindinput="onSearch" value="{{seach}}" />
+        </view>
+    </view>
+
+    <!-- Pending list -->
+    <view class="task_list_title">待办事项<mp-badge class="badge" content="{{task_pending.length}}"/></view>
+    <view class="task_list" wx:if="{{task_pending.length > 0}}">
+        <view class="task_list_cell">
         </view>
     </view>
 </view>
 
-<!-- Incompleted -->
-<view class="list_title">待办任务<mp-badge content="{{task_pending.length}}" style="margin-left: 5px;"></mp-badge></view>
+

@@ -50,7 +50,7 @@
         ]
     },
     "useExtendedLib": {
-        "kbone": true,
+        "kbone": false,
         "weui": true
     },
     "style": "v2",
