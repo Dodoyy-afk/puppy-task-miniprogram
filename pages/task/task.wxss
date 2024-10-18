@@ -31,11 +31,13 @@
 
 .task_list_cell {
     padding: 20px 15px;
+    margin: 2px;
+    border-radius: 10px;
+    background: #f8f7f4;
+    border: rgba(0, 0, 0, 0.05) solid 3px;
 }
 
-.task_list_cell:not(:last-child) {
-    border-bottom: rgba(0, 0, 0, 0.05) solid 3px;
-}
+
 
 .card {
     display: flex;
