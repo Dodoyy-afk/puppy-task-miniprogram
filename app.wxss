@@ -42,3 +42,14 @@ page {
 .cell:not(:last-child) {
   border-bottom: rgba(0, 0, 0, 0.05) solid 1px;
 }
+
+/* Global settings for every paegs */
+.swiper_images {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: darkgray;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -14,7 +14,7 @@
     "navigationBarTitleText": "小白和小鸡毛的控制台"
   },
   "tabBar": {
-    "color": "1a1a1a",
+    "color": "#1a1a1a",
     "selectedColor": "#00cccc",
     "list": [
       {

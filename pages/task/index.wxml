@@ -1,1 +1,14 @@
 <wxs module="util" src="../util.wxs" />
+
+<!-- Show default empty interface -->
+<view class="container_white" wx:if="{{task_list.length === 0}}">
+  <view class="title">暂无任务</view>
+  <view class="subtitile">快去发现有什么任务吧</view>
+</view>
+
+<!-- Show swiper if there is something in the list -->
+<swiper wx:if="{{task_list.length > 0}}" indicator-dots="true" autoplay="true" interval="2000" duration="500" style="height: 200px; width: 100%; background: white;">
+  <swiper-item><image src="../../images/swiper/boring.jpg" mode="widthFix" class="swiper_images" /></swiper-item>
+  <swiper-item><image src="../../images/swiper/life.jpg" mode="widthFix" class="swiper_images" /></swiper-item>
+  <swiper-item><image src="../../images/swiper/beach.jpg" mode="widthFix" class="swiper_images" /></swiper-item>
+</swiper>
