@@ -1,6 +1,6 @@
 {
     "usingComponents": {
-        "mp-searchbar": "weui-miniprogram/searchbar/searchbar",
-        "mp-badge": "weui-miniprogram/badge/badge"
+        "mp-badge": "weui-miniprogram/badge/badge",
+        "mp-slideview": "weui-miniprogram/slideview/slideview"
     }
 }

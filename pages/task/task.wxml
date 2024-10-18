@@ -32,9 +32,23 @@
     <!-- Pending list -->
     <view class="task_list_title">待办事项<mp-badge class="badge" content="{{task_pending.length}}"/></view>
     <view class="task_list" wx:if="{{task_pending.length > 0}}">
-        <view class="task_list_cell">
+        <view class="task_list_cell" wx:for="{{task_pending}}" wx:key="index">
+            <mp-slideview buttons="{{slide_button}}" data-index="{{index}}" icon="true">
+                <view class="card">
+                    <view class="card_title">{{util.omit(item.name, 10)}}</view>
+                    <view class="card_award">{{util.omit(item.credit, 10)}}</view>
+                    <view class="card_date">{{util.omit(item.date, 10)}}</view>
+                </view>
+                <view class="task_publisher">
+                    <image class="task_publisher_profile" wx:if="{{item._puppy_id === _puppy_white_id}}" src="../../images/task/profile/white.png" mode="widthFix"></image>
+                    <image class="task_publisher_profile" wx:if="{{item._puppy_id === _puppy_yellow_id}}" src="../../images/task/profile/yellow.png" mode="widthFix"></image>
+                </view>
+            </mp-slideview>
         </view>
     </view>
+
+    <!-- Completed list -->
+
 </view>
 
 
