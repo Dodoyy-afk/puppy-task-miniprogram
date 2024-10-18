@@ -9,7 +9,7 @@
     "window": {
         "backgroundColor": "#f6f6f6",
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#33cc99",
+        "navigationBarBackgroundColor": "#feeeda",
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "小白和小鸡毛的控制台"
     },

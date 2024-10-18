@@ -8,13 +8,13 @@ Page({
         task_list: [1],
         task_pending: [
             {
-                _puppy_id: "IDwhite",
+                _puppy_id: "IDyellow",
                 name: "做饭",
                 credit: "10",
                 date: "2024-10-18"
             },
             {
-                _puppy_id: "IDyellow",
+                _puppy_id: "IDwhite",
                 name: "拖地",
                 credit: "10",
                 date: "2024-10-18"
