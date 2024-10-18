@@ -63,7 +63,7 @@ page {
 
 .task_list {
     z-index: 0;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7);
     width: calc(100% - 40px);
     margin: 10px 20px;
     border-radius: 5px;
