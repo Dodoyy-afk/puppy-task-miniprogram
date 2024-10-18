@@ -1,60 +1,60 @@
 {
-  "pages": [
-    "pages/main/index",
-    "pages/task/index",
-    "pages/store/index",
-    "pages/repo/index",
-    "pages/menu/index"
-  ],
-  "window": {
-    "backgroundColor": "#f6f6f6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#33cc99",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "小白和小鸡毛的控制台"
-  },
-  "tabBar": {
-    "color": "#1a1a1a",
-    "selectedColor": "#00cccc",
-    "list": [
-      {
-        "pagePath": "pages/main/index",
-        "iconPath": "images/tab/main/mainIcon.jpg",
-        "selectedIconPath": "images/tab/main/mainIconSelected.jpg",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/task/index",
-        "iconPath": "images/tab/task/taskIcon.jpg",
-        "selectedIconPath": "images/tab/task/taskIconSelected.jpg",
-        "text": "任务"
-      },
-      {
-        "pagePath": "pages/store/index",
-        "iconPath": "images/tab/store/storeIcon.jpg",
-        "selectedIconPath": "images/tab/store/storeIconSelected.jpg",
-        "text": "商城"
-      },
-      {
-        "pagePath": "pages/repo/index",
-        "iconPath": "images/tab/repo/repoIcon.jpg",
-        "selectedIconPath": "images/tab/repo/repoIconSelected.jpg",
-        "text": "仓库"
-      },
-      {
-        "pagePath": "pages/menu/index",
-        "iconPath": "images/tab/menu/menuIcon.jpg",
-        "selectedIconPath": "images/tab/menu/menuIconSelected.jpg",
-        "text": "菜单"
-      }
-    ]
-  },
-  "useExtendedLib": {
-    "kbone": true,
-    "weui": true
-  },
-  "style": "v2",
-  "lazyCodeLoading": "requiredComponents",
-  "cloud": true,
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/main/index",
+        "pages/task/index",
+        "pages/store/index",
+        "pages/repo/index",
+        "pages/menu/index"
+    ],
+    "window": {
+        "backgroundColor": "#f6f6f6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#33cc99",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "小白和小鸡毛的控制台"
+    },
+    "tabBar": {
+        "color": "#1a1a1a",
+        "selectedColor": "#00cccc",
+        "list": [
+            {
+                "pagePath": "pages/main/index",
+                "iconPath": "images/tab/main/mainIcon.jpg",
+                "selectedIconPath": "images/tab/main/mainIconSelected.jpg",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/task/index",
+                "iconPath": "images/tab/task/taskIcon.jpg",
+                "selectedIconPath": "images/tab/task/taskIconSelected.jpg",
+                "text": "任务"
+            },
+            {
+                "pagePath": "pages/store/index",
+                "iconPath": "images/tab/store/storeIcon.jpg",
+                "selectedIconPath": "images/tab/store/storeIconSelected.jpg",
+                "text": "商城"
+            },
+            {
+                "pagePath": "pages/repo/index",
+                "iconPath": "images/tab/repo/repoIcon.jpg",
+                "selectedIconPath": "images/tab/repo/repoIconSelected.jpg",
+                "text": "仓库"
+            },
+            {
+                "pagePath": "pages/menu/index",
+                "iconPath": "images/tab/menu/menuIcon.jpg",
+                "selectedIconPath": "images/tab/menu/menuIconSelected.jpg",
+                "text": "菜单"
+            }
+        ]
+    },
+    "useExtendedLib": {
+        "kbone": true,
+        "weui": true
+    },
+    "style": "v2",
+    "lazyCodeLoading": "requiredComponents",
+    "cloud": true,
+    "sitemapLocation": "sitemap.json"
 }
