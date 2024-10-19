@@ -5,14 +5,14 @@ Page({
 
         product_list: [
             {
-                publisher: "IDwhite",
+                _puppy_id: "IDwhite",
                 name: "按摩券",
                 description: "享受15分钟按摩时间～",
                 credit: "50",
                 date: "2024-10-18"
             },
             {
-                publisher: "IDyellow",
+                _puppy_id: "IDyellow",
                 name: "宵夜券",
                 description: "给小白做宵夜并陪她吃～",
                 credit: "60",
@@ -21,7 +21,7 @@ Page({
         ],
 
         slide_buttons:[
-            {name: "exchange", text: "兑换", src: ""},
+            {name: "buy", text: "兑换", src: ""},
         ]
     },
 
