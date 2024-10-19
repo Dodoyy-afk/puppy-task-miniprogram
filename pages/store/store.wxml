@@ -1,2 +1,39 @@
-<!--pages/store/index.wxml-->
-<text>pages/store/index.wxml</text>
+<wxs module="util" src="../util.wxs" />
+
+<!-- Show swiper -->
+<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" style="height: 200px; width: 100%; background: white;">
+    <swiper-item>
+        <image src="../../images/swiper/boring.jpg" mode="widthFix" class="swiper_images" />
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/swiper/life.jpg" mode="widthFix" class="swiper_images" />
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/swiper/beach.jpg" mode="widthFix" class="swiper_images" />
+    </swiper-item>
+</swiper>
+
+<!-- Show default empty interface -->
+<view class="container_white" wx:if="{{product_list.length == 0}}">
+    <view class="big_title">暂无商品</view>
+    <view class="big_subtitle">快去发现有什么商品吧</view>
+</view>
+
+<!-- product_list -->
+<view wx:if="{{product_list.length > 0}}">
+    <view class="product_list_cell" wx:for="{{product_list}}" wx:key="index">
+        <view class="card">
+            <view class="product_image">
+                <image class="product_image_cell" src="../../images/store/sweep.png" mode="widthFix"/>
+            </view>
+            <view class="product_title">{{util.omit(item.name, 10)}}</view>
+            <view class="product_description">🌟 {{util.omit(item.description, 30)}} 🌟</view>
+            <view wx:if="{{item.publisher === _puppy_yellow_id}}">发放人：小黄</view>
+            <view wx:if="{{item.publisher === _puppy_white_id}}">发放人：小白</view>
+            <view class="product_detail">
+                <view class="product_credit">💵  {{util.omit(item.credit, 10)}} 积分</view>
+                <view class="product_date">📅  {{util.omit(item.date, 10)}}</view>
+            </view>
+        </view>
+    </view>
+</view>
