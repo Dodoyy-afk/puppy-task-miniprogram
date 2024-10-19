@@ -20,20 +20,18 @@
 </view>
 
 <!-- product_list -->
-<view wx:if="{{product_list.length > 0}}">
+<view class="product_list_container" wx:if="{{product_list.length > 0}}">
     <view class="product_list_cell" wx:for="{{product_list}}" wx:key="index">
         <view class="card">
             <view class="product_image">
                 <image class="product_image_cell" src="../../images/store/sweep.png" mode="widthFix"/>
             </view>
-            <view class="product_title">{{util.omit(item.name, 10)}}</view>
-            <view class="product_description">🌟 {{util.omit(item.description, 30)}} 🌟</view>
+            <view class="product_title">{{util.omit(item.name, 5)}}</view>
+            <view class="product_description">🌟 {{util.omit(item.description, 8)}} 🌟</view>
             <view wx:if="{{item._puppy_id === _puppy_yellow_id}}">发放人：小黄</view>
             <view wx:if="{{item._puppy_id === _puppy_white_id}}">发放人：小白</view>
-            <view class="product_detail">
-                <view class="product_credit">💵  {{util.omit(item.credit, 10)}} 积分</view>
-                <view class="product_date">📅  {{util.omit(item.date, 10)}}</view>
-            </view>
+            <view class="product_credit">💵  {{util.omit(item.credit, 5)}} 积分</view>
+            <view class="product_date">📅  {{util.omit(item.date, 5)}}</view>
         </view>
     </view>
 </view>
