@@ -2,6 +2,13 @@
     padding: 5px;
 }
 
+.product_list_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding-top: 10px;
+}
+
 .product_list_cell {
     padding: 5px;
     background: #f8f7f4;
