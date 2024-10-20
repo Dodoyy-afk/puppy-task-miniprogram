@@ -10,27 +10,32 @@
 }
 
 .product_list_cell {
-    padding: 5px;
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
     background: #f8f7f4;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
     align-items: center;
-    padding: 2px;
     position: relative;
     border-radius: 15px;
-    border: rgba(0, 0, 0, 0.05) solid 3px;
+    border: rgba(0, 0, 0, 0.1) solid 3px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+.product_image_cell {
+    width: 100%;
 }
 
 .product_image {
     width: 120px;
     height: 100%;
-}
-
-.product_image_cell {
-    width: 100%;
 }
 
 .product_detail {
